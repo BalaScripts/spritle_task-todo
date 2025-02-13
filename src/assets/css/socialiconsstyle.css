@@ -1,0 +1,187 @@
+/* social icon style sheet */
+
+      .social-media{
+      list-style-type: none;
+      display: flex;
+      .fb-icon{
+        position: relative;
+        display: block;
+        width:50px;
+        height:50px;
+        background:#f1f1f1;
+        margin-right: 10px;
+        border-radius: 30%;
+        overflow: hidden;    
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 0 5px 15px -5px rgba(#454545,.5);
+        color:#2196F3;
+        i{
+          line-height: 50px;
+          font-size: 1.5rem;
+          transition: .2s linear;
+        }
+        &:hover{
+          i{
+            transform:scale(1.1);
+            color:#f1f1f1;
+          }
+          &::before{
+            animation: aaa .7s 1;
+            top: -10%;
+            left: -10%;
+          }
+        }
+        &::before{
+          content:'';
+          position: absolute;
+          width: 120%;
+          height: 120%;
+          background: #2196F3;
+          transform: rotate(45deg);
+          left: -110%;
+          top: 90%;
+          
+        }
+      }
+  
+      .ins-icon{
+          position: relative;
+          display: block;
+          width:50px;
+          height:50px;
+          background:#f1f1f1;
+          margin-right: 10px;
+          border-radius: 30%;
+          overflow: hidden;    
+          text-align: center;
+          text-decoration: none;
+          box-shadow: 0 5px 15px -5px rgba(#454545,.5);
+          color:#f98a35;
+          i{
+            line-height: 50px;
+            font-size: 1.5rem;
+            transition: .2s linear;
+          }
+          &:hover{
+            i{
+              transform:scale(1.1);
+              color:#f1f1f1;
+            }
+            &::before{
+              animation: aaa .7s 1;
+              top: -10%;
+              left: -10%;
+            }
+          }
+          &::before{
+            content:'';
+            position: absolute;
+            width: 120%;
+            height: 120%;
+            background: linear-gradient(#f98a35 20%, #ee2a7b 80%);
+            transform: rotate(45deg);
+            left: -110%;
+            top: 90%;
+            
+          }
+        }
+  
+        .you-icon{
+          position: relative;
+          display: block;
+          width:50px;
+          height:50px;
+          background:#f1f1f1;
+          margin-right: 10px;
+          border-radius: 30%;
+          overflow: hidden;    
+          text-align: center;
+          text-decoration: none;
+          box-shadow: 0 5px 15px -5px rgba(#454545,.5);
+          color:red;
+          i{
+            line-height: 50px;
+            font-size: 1.5rem;
+            transition: .2s linear;
+          }
+          &:hover{
+            i{
+              transform:scale(1.1);
+              color:#f1f1f1;
+            }
+            &::before{
+              animation: aaa .7s 1;
+              top: -10%;
+              left: -10%;
+            }
+          }
+          &::before{
+            content:'';
+            position: absolute;
+            width: 120%;
+            height: 120%;
+            background: red;
+            transform: rotate(45deg);
+            left: -110%;
+            top: 90%;
+            
+          }
+        }
+        .x-icon{
+          position: relative;
+          display: block;
+          width:50px;
+          height:50px;
+          background:#f1f1f1;
+          border-radius: 30%;
+          overflow: hidden;    
+          text-align: center;
+          text-decoration: none;
+          box-shadow: 0 5px 15px -5px rgba(#454545,.5);
+          color:black;
+          i{
+            line-height: 50px;
+            font-size: 1.5rem;
+            transition: .2s linear;
+          }
+          &:hover{
+            i{
+              transform:scale(1.1);
+              color:#f1f1f1;
+              
+            }
+            &::before{
+              animation: aaa .7s 1;
+              top: -10%;
+              left: -10%;
+            }
+          }
+          &::before{
+            content:'';
+            position: absolute;
+            width: 120%;
+            height: 120%;
+            background: linear-gradient(#b1b0b0 50%, black 50%);
+            transform: rotate(45deg);
+            left: -110%;
+            top: 90%;
+            
+          }
+        }
+    }
+    
+    @keyframes aaa{
+      0%{
+        left: -110%;
+        top: 90%;
+      }
+      50%{
+        left: 10%;
+        top: -30%;
+      }
+      100%{
+        top: -10%;
+        left: -10%;
+      }
+    }
