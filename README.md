@@ -87,7 +87,7 @@ npm run deploy
 
 ## Live Demo
 
-🔗 [View the live project](https://kenkarate.github.io/spritle_task-todo)
+🔗 [View the live project]([https://kenkarate.github.io/spritle_task-todo](https://balascripts.github.io/spritle_task-todo/))
 
 ---
 
